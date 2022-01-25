@@ -7,4 +7,4 @@ function solution(num) {
         var answer="Odd";
         
     return answer;
-}
+} 
