@@ -1,0 +1,12 @@
+function solution(n) {
+    var answer = 0;
+    var a = Math.sqrt(n);
+    
+    if(Number.isInteger(a)){
+        answer = Math.pow(a+1, 2); 
+    }else{
+        answer = -1;
+    }
+    
+    return answer;
+}
